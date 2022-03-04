@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+.app-wrapper {
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 3fr 13fr;
+  grid-gap: 10px;
+  grid-template-areas:
+    'h h h'
+    'n c c';
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.content {
+  grid-area: c;
+}
+
+
+
+
+
+
+
+

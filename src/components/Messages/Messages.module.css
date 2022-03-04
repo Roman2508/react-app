@@ -1,0 +1,51 @@
+.dialogs__title {
+  font-weight: 500;
+}
+.dialogs__col {
+  display: flex;
+  justify-content: space-between;
+}
+.dialogs__items {
+  padding: 20px;
+  width: 250px;
+}
+.messages {
+  padding: 20px;
+  overflow-y: hidden;
+  padding-bottom: 200px;
+}
+
+/* input */
+.message__input {
+  background-color: #fff;
+  z-index: 10;
+  margin-bottom: 50px;
+  width: 690px;
+  position: fixed;
+  bottom: -50px;
+  padding-bottom: 50px;
+}
+
+.message__textarea {
+  width: 690px;
+  height: 100px;
+  resize: none;
+  border: none;
+  background-color: azure;
+  background-color: #dbdbdb;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.message__btn {
+  padding: 5px 20px;
+  background-color: #109c3a;
+  border: none;
+  width: 120px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+  margin-left: auto;
+  display: block;
+  text-align: left;
+}

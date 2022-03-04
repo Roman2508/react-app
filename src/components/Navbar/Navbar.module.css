@@ -1,0 +1,37 @@
+.nav {
+  grid-area: n;
+  background-color: #109c3a;
+  height: 90.2vh;
+}
+
+.item {
+  color: #fff;
+  padding: 0 20px 5px 25px;
+}
+.item:nth-child(5){
+  margin-top: 15px;
+}
+.item:first-child {
+  padding-top: 20px;
+}
+.active {
+  text-decoration: underline;
+}
+.title{
+  margin-bottom: 10px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.friends__box{
+  display: flex;
+}
+.friends__item + .friends__item{
+  margin-left: 10px;
+}
+.friends__ava{
+  max-width: 50px;
+  border-radius: 50%;
+}
+.friends__name{
+  text-align: center;
+}

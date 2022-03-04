@@ -1,0 +1,13 @@
+.post{
+    padding-bottom: 20px;
+}
+.post__info{
+    display: flex;
+    align-items: center;
+}
+.post__img{
+    margin-right: 20px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
